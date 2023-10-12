@@ -3,4 +3,6 @@ dvc[gdrive]
 sklearn 
 pandas
 scikit-learn
+pytest
+tox
 
