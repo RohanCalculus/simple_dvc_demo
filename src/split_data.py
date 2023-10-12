@@ -7,6 +7,8 @@ from get_data import read_params
 
 # Split the data into train and test dataframes and save them
 def split_and_save_data(config_path):
+
+    # From config get the details
     config = read_params(config_path)
     test_data_path = config["split_data"]["test_path"]
     train_data_path = config["split_data"]["train_path"]
@@ -14,6 +16,7 @@ def split_and_save_data(config_path):
     split_ratio = config["split_data"]["test_size"]
     random_state = config["base"]["random_state"]
 
+    # Train and Test DataFrames
     df = pd.read_csv(raw_data_path, sep=",")
     train, test = train_test_split(df, test_size=split_ratio, random_state=random_state)
     train.to_csv(train_data_path, sep=",", index=False, encoding='utf-8')
