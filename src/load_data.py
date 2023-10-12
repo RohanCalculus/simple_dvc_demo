@@ -1,5 +1,3 @@
-# Read the data from data source
-# Save it in the data/raw for further process
 # Import Libraries 
 import os
 import argparse
