@@ -1,7 +1,7 @@
 
 ### Step 1: Create and Activate the project Environment
-* conda create -n wineq python=3.7 -y
-* conda activate wineq
+* `conda create -n wineq python=3.7 -y`
+* `conda activate wineq`
 
 ### Step 2: Create requirements.txt and install them
 * echo. > requirements.txt 
