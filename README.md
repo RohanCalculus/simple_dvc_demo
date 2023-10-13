@@ -29,3 +29,16 @@
 * `git remote add origin https://github.com/RohanCalculus/simple_dvc_demo.git`
 * `git branch -M main`
 * `git push origin main`
+
+### Step 8: Tox and Tox Rebulding Commands
+* `tox`
+* `tox -r`
+
+### Step 9: Pytest Command
+* `pytest -v`
+
+### Step 10: Setup Command
+* `pip install -e .`
+
+### Step 11: Build your own Package
+* `python setup.py sdist bdist_wheel`
