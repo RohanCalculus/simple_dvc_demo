@@ -8,6 +8,6 @@ pandas
 scikit-learn
 pytest
 tox
-flake8
+pytest-flake8
 flask
 gunicorn
